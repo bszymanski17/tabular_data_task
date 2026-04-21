@@ -16,7 +16,7 @@ The data preparation process included:
 Several models were tested for this task. The best performance was achieved by **HistGradientBoosting**.
 
 * **Results:** The model reached an **RMSLE of 1.3** and a **MAE of 22.4 million**.
-* ** Most important variable:** The budget was identified as the most important variable for predicting revenue.
+* **Most important variable:** The budget was identified as the most important variable for predicting revenue.
 * **Analysis and conclusions:** In some cases, the model significantly overestimated the gross revenue.
 * However, most of these errors were caused by data issues rather than the model itself—for example,
 * the gross value only reflected the opening weekend or belonged to another movie with the same title.
