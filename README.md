@@ -21,7 +21,7 @@ Several models were tested for this task. The best performance was achieved by *
 * **Most important variable:** The budget was identified as the most important variable for predicting revenue.
 
   
-* **Analysis and conclusions:** In some cases, the model significantly overestimated the gross revenue. However, most of these errors were caused by data issues rather than the model itself—for example, the gross value only reflected the opening weekend or belonged to another movie with the same title. This issue primarily affected movies with smaller budgets. To improve the model, several next steps were proposed,such as adding a binary variable for budgets under $10 million to better handle these observations, or increasing the weights of observations for correct rows that show large errors.
+* **Analysis and conclusions:** The model is generally accurate at predicting the order of magnitude of the movie's gross. In some cases, the model significantly overestimated the gross revenue. However, most of these errors were caused by data issues rather than the model itself. For example, the gross value only reflected the opening weekend or belonged to another movie with the same title. This issue primarily affected movies with smaller budgets. To improve the model, several next steps were proposed,such as adding a binary variable for budgets under $10 million to better handle these observations, or increasing the weights of observations for correct rows that show large errors.
 ---
 
 ## Task 2: Predicting High Ratings (Classification)
